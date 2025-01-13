@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./ms5837-python/ms5837"
+    ]
+}
