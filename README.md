@@ -13,7 +13,7 @@ https://searobotix.com/b30/download/b30-sensor-tutorial-stm32/
 https://pidoc.cn/gpiozero/recipes
 https://github.com/searobotix/ping-python
 ## 使用
-深度计数据传输使用I2C协议，查询手册只有一组I2C接口，注意接线：
+深度计数据传输使用I2C协议，查询手册有两组I2C接口，注意接线：
 ![引脚图](./picture/pinout.png)
 ![接线对应图](./picture/wire.png)
 之后数据读取部分参考readdata即可
