@@ -17,7 +17,7 @@ import argparse
 from builtins import input
 import serial.tools.list_ports
 
-'''
+
 # 深度计
 # 此处查询手册获得当前对应具体bus参数
 sensor = ms5837.MS5837_30BA(bus=1) # Default I2C bus is 1 (Raspberry Pi 3)
@@ -71,8 +71,8 @@ time.sleep(5)
 #         else:
 #                 print("Sensor read failed!")
 #                 exit(1)
-'''
 
+'''
 # 高度计
 def list_serial_ports():
     """列出所有可用的串口设备"""
@@ -150,3 +150,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+'''
